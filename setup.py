@@ -27,7 +27,7 @@ setup(
         'console_scripts': [
             'occupancy_grid_pub = autonomous_tb3.occupancy_grid_pub:main',
             'sdf_spawner = autonomous_tb3.spawn_entity:main',
-            'maze_solver = autonomous_tb3.maze_solver:main'
+            'commander = autonomous_tb3.commander:main'
         ],
     },
 )
