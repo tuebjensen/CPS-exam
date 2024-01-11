@@ -129,7 +129,7 @@ def generate_launch_description():
     # ld.add_action(square_mapping)
     ld.add_action(square_localization)
     ld.add_action(rviz)
-    # ld.add_action(square_nav)
-    ld.add_action(square_nav_profiling)
+    ld.add_action(square_nav)
+    # ld.add_action(square_nav_profiling)
 
     return ld
